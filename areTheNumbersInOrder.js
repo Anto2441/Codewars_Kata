@@ -18,5 +18,3 @@ function inAscOrder(arr1) {
 
   return arr1.every((value, index) => value === arr2[index]);
 }
-
-console.log(inAscOrder([1, 2, 4, 7, 19]));
