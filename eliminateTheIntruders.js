@@ -10,5 +10,5 @@
 function eliminateTheIntruders(input) {
   const onesOnly = input.split('0').join('');
 
-  return parseInt(onesOnly, 2);
+  return parseInt(onesOnly, 2) || 0;
 }
